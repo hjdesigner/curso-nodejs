@@ -7,21 +7,21 @@
   <title>Formulario</title>
 </head>
 <body>
-  <form action="produtos/salva" method="post">
+  <form action="/produtos" method="post">
     <div>
       <label for="titulo">Titulo</label>
-      <input type="text" name="name" placeholder="Coloque o titulo do livro" id="titulo">
+      <input type="text" name="titulo" placeholder="Coloque o titulo do livro" id="titulo">
     </div>
     <div>
       <label for="preco">Preço</label>
-      <input type="text" name="name" placeholder="Coloque o preco do livro 150.25" id="preco">
+      <input type="text" name="preco" placeholder="Coloque o preco do livro 150.25" id="preco">
     </div>
     <div>
       <label for="descricao">Descrição</label>
       <textarea name="descricao" id="descricao" rows="8" cols="40" placeholder="Coloque aqui a descricao do livro"></textarea>
     </div>
     <div>
-      <input type="submit" name="name" value="gravar">
+      <input type="submit" value="gravar">
     </div>
   </form>
 </body>
